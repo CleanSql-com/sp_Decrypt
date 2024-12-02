@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="sp_Decrypt">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="Inst1.docker.internal,1434:sa">
+          <Created>2024-12-02T13:03:55.389556+01:00</Created>
+          <Type>SQL</Type>
+          <Server>Inst1.docker.internal,1434</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="Inst1.docker.internal:sa">
+          <Created>2024-12-02T13:02:06.8966204+01:00</Created>
+          <Type>SQL</Type>
+          <Server>Inst1.docker.internal</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_A2_DEFINITION - Encrypted FN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Inst1.docker.internal:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Inst1.docker.internal</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_A2_DEFINITION - Encrypted FN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_A2_DEFINITION - Encrypted IF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_A2_DEFINITION - Encrypted IF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_A2_DEFINITION - Encrypted P - Short.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_A2_DEFINITION - Encrypted P - Short.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_A2_DEFINITION - Encrypted P.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_A2_DEFINITION - Encrypted P.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_A2_DEFINITION - Encrypted TF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_A2_DEFINITION - Encrypted TF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_A2_DEFINITION - Encrypted TR.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_A2_DEFINITION - Encrypted TR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_A2_DEFINITION - Encrypted V.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_A2_DEFINITION - Encrypted V.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_B1_[dbo].[fnInitRc4].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Inst1.docker.internal:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Inst1.docker.internal</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_B1_[dbo].[fnInitRc4].sql</FullPath>
+        </FileNode>
+        <FileNode Name="_B2_[dbo].[fnInitRc4] - 2DARRAY OUTPUT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Inst1.docker.internal:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Inst1.docker.internal</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_B2_[dbo].[fnInitRc4] - 2DARRAY OUTPUT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_B6_[dbo].[uspDecodeRc4].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Inst1.docker.internal:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Inst1.docker.internal</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_B6_[dbo].[uspDecodeRc4].sql</FullPath>
+        </FileNode>
+        <FileNode Name="_B7_[dbo].[uspDecodeRc4] - TESTING.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Inst1.docker.internal,1434:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Inst1.docker.internal,1434</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_B7_[dbo].[uspDecodeRc4] - TESTING.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DecriptingScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Inst1.docker.internal:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Inst1.docker.internal</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>DecriptingScript.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
